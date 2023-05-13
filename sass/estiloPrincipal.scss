@@ -1,0 +1,68 @@
+@import "variables";
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    height: 100vh;
+
+    font: {
+        family: $fontFamily;
+        weight: 400;
+    }
+
+    background-color: $colorBackground;
+}
+
+body {
+
+    height: 100vh;
+
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+
+.contenedorPrincipal {
+
+    width: 320px;
+    height: 500px;
+
+    padding: 15px;
+
+    border-radius: 20px;
+
+    background-color: $ColorBackgroundComponent;
+
+}
+
+.seccionQr {
+
+
+    img {
+        border-radius: 10px;
+    }
+}
+
+.seccionInf {
+
+    color: $colorFuenteTexto;
+    text-align: center;
+
+    font-size: 15px;
+
+    padding: {
+        right: 15px;
+        left: 15px;
+    }
+
+    h1 {
+        color: $colorFuenteTitulo;
+    }
+
+}

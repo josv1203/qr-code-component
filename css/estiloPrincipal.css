@@ -1,0 +1,45 @@
+/* VARIABLES PARA LA FUENTE. */
+/* Esta no es la fuente. */
+/* VARIABLES PARA LOS COLORES DE LA PAGINA. */
+* {
+  box-sizing: border-box;
+}
+
+html {
+  height: 100vh;
+  font-family: Outfit;
+  font-weight: 400;
+  background-color: hsl(212, 45%, 89%);
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contenedorPrincipal {
+  width: 320px;
+  height: 500px;
+  padding: 15px;
+  border-radius: 20px;
+  background-color: #ffffff;
+}
+
+.seccionQr img {
+  border-radius: 10px;
+}
+
+.seccionInf {
+  color: hsl(220, 15%, 55%);
+  text-align: center;
+  font-size: 15px;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+.seccionInf h1 {
+  color: hsl(218, 44%, 22%);
+}
+
+/*# sourceMappingURL=estiloPrincipal.css.map */
